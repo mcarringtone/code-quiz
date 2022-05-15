@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200&display=swap" rel="stylesheet">
+
+  </head>
+  <div>
+    <div class="timer-container">
+    <div class="timer"></div>
+    </div>
+    <!-- entire continer that contains question -->
+
+      <div class="container">  
+        <div id="start-game">
+        <h1>This is a coding quiz. Welcome!</h1>
+        <button>Click Here</button>
+      </div>
+      <!-- question and multiple choices -->
+      <div id="question">  
+        
+      </div>
+      <ol id="answerList">
+          <li class="choices" id="choices1"></li>
+          <li class="choices" id="choices2"></li>
+          <li class="choices" id="choices3"></li>
+          <li class="choices" id="choices4"></li>
+        </ol>
+        <div class="hide" id="end-game">
+        <h1>Thanks for playing! Your score is </h1>
+        <h2 id="score"></h2>
+        <div id="form-example" class="hide">
+          <label for="score">Your name:</label>
+          <input type="text" name="name" id="name" required />
+          <button id="submit">submit</button>
+          <div id="output"></div>
+        </div>
+        <button>Play again</button>
+       </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
